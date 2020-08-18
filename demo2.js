@@ -36,19 +36,21 @@ let luku3 = -1;
 let luku4 = 1;
 let luku5 = 100;
 
-//    jos $luku1 on nolla, tulosta "nolla"
+//    jos luku1 on nolla, tulosta "nolla"
 if(luku1 === 0) console.log("eka nolla")
 
-//    jos $luku2 on nolla, tulosta "nolla"
+//    jos luku2 on nolla, tulosta "nolla"
 if(luku2 === 0) console.log("toka nolla")
 
-//jos $luku2 on pienempi kuin $luku 4, tulosta "luku 2 on pienempi", muuten tulosta "luku 2 ei ole pienempi"
+//jos luku2 on pienempi kuin luku 4, tulosta "luku 2 on pienempi", muuten tulosta "luku 2 ei ole pienempi"
 if(luku2 > luku4)  console.log("luku 2 on pienempi")
 else    console.log("luku 2 ei ole pienempi")
 
-    //jos $luku4 on $luku1:n ja $luku5:n välissä, tulosta "välissä"
+    //jos luku4 on luku1:n ja $luku5:n välissä, tulosta "välissä"
 if(luku4 > luku1 && luku4 < luku5)  console.log("välissä")
 else if (luku4 < luku1 || luku4 > luku5) console.log("reunassa")
 else console.log("ok")
 
-    //jos $luku4 on pienempi kuin $luku1 tai suurempi kuin $luku5, tulosta "reunassa", muuten tulosta "ok"
+    //jos luku4 on pienempi kuin luku1 tai suurempi kuin luku5, tulosta "reunassa", muuten tulosta "ok"
+
+    ASD
